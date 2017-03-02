@@ -4,5 +4,13 @@
   "main": "index.js",
   "repository": "git@github.com:saqing/ts-dva-demo.git",
   "author": "saqing <saqing1991@gmail.com>",
-  "license": "MIT"
+  "scripts": {
+    "start": "brunch watch --server",
+    "prod": "brunch build --production"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  }
 }
